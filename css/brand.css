@@ -1,0 +1,209 @@
+article {
+    width: 1519px;
+    
+    margin: 0 auto;
+}
+.bgc {
+    border-top: 1px solid black;
+    width: 100%;
+    height: 466px;
+    background: url(../update/back01.png) no-repeat;
+}
+.bgc p {
+    margin: 100px 0 0 200px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+}
+.bgc  button {
+    transition: all .6s;
+    margin: 60px 0 0 200px;
+    width: 180px;
+    height: 60px;
+    font-size: 24px;
+    background-color: #ecefff;
+    border-radius: 10px;
+}
+.bgc button:hover {
+    transform: scale(1.1);
+}
+.advocate {
+    margin-top: 50px;
+    display: flex;
+}
+.advocate_left {
+    width: 614px;
+    height: 712px;
+    border-right: 3px solid #fff;
+    background-color: rgb(0, 0, 0);
+}
+.advocate_left p:nth-child(1)  {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+}
+.advocate_left p:nth-child(2) {
+    text-align: center;
+    background: linear-gradient(to right, #8607f1, #2f42fd);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+}
+.advocate_left p:nth-child(3) {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.advocate_left p:nth-child(4) {
+    width: 300px;
+    height: 200px;
+    margin: 10px 200px;
+    line-height: 30px   ;
+    color: #fff;
+    font-size: 18px;
+}
+.alb  {
+    margin:  0  0 0 200px;
+    /* background-color: #2f42fd; */
+}
+.alb a:nth-child(1) button{
+    margin-right: 20px;
+    color: #fff;
+    width: 130px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 40px;
+    transition: all .6s;
+    border: 1px solid #fff;
+}
+
+.alb a:nth-child(1) button:hover {
+    color: #4164ff;
+    transform: scale(1.1);
+    border: 1px solid #4164ff; 
+}
+.alb  a:nth-child(2) button {
+    color: #000;
+    transition: all .6s;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.alb a:nth-child(2) button:hover {
+
+    color: #4164ff;
+    transform: scale(1.1);
+    border: 1px solid #4164ff;
+}
+.advocate_right {
+    width: 902px;
+    height: 712px;
+    background-color: #000;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.all {
+    width: 1099px;
+    height: 1220px;
+    padding: 50px 210px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.all div p:nth-child(1) {
+    font-size: 50px;
+    font-weight: 700;
+}
+.all div p:nth-child(2) {
+    background: linear-gradient(to right, #8607f1, #2f42fd);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 16px;
+}
+.all_fem {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.all_fem div {
+    
+    margin-top: 125px;
+    width: 335px;
+    height: 335px;
+    border-radius: 50%;
+    background-color: #2f42fd;
+}
+
+.all_fem div a img:hover {
+       transform: scale(1.1);
+}
+.all_fem div  a img {
+    transition: all .6s;
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+}
+.all p:nth-child(3) {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 36px;
+}
+.all p:nth-child(3) span {
+    font-size: 36px;
+}

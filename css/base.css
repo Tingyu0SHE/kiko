@@ -1,0 +1,73 @@
+* {
+    /* 清楚左右左右边距  */
+    margin: 0;
+    padding: 0
+}
+
+body {
+    /* 设置字体大小样式  */
+    font: 16px,"微软雅黑", "Arial Narrow", HELVETICA;
+    /* 背景颜色为白色 */
+    background: #ecefff;
+    /* 谷歌浏览器默认设置16px的字体，用于谷歌浏览器设置字体  */
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    /* 设置链接文字的颜色  */
+    color: #2d374b;
+    /* 去除链接的下划线  */
+    text-decoration: none;
+}
+.w {
+    width: 100%;
+    margin:  0 auto;
+}
+
+/* a:hover { */
+    /* 鼠标经过之后变成这个颜色 */
+    /* background-color: #f2f2f2; */
+    /* color: #cd0200; */
+    /* 鼠标经过后下面出现一条线 */
+    /* text-decoration: underline */
+/* } */
+
+em {
+    /* 文本的风格默认 */
+    font-style: normal
+}
+input {
+    outline: none;
+    border: none;
+    /**修改颜色*/
+    /* outline-color: "red"; */
+}
+
+li {
+    /* 去掉li前面的原点 */
+    list-style: none
+}
+
+img {
+    /* 去除图片的边框 */
+    border: 0;
+    /* 设置图片或者表单和文字垂直对齐 */
+    vertical-align: middle
+}
+
+table {
+    /* 为表格设置合并边框模型 */
+    border-collapse: collapse;
+    /* 相邻单元格的边框间的距离 */
+    border-spacing: 0
+}
+
+p {
+    /* 允许长单词换行到下一行 */
+    word-wrap: break-word
+}
+button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}

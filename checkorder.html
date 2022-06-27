@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>核对订单</title>
+    <!-- 网站说明 -->
+    <meta name="description" content="kiko" />
+    <!-- 关键字 -->
+    <meta name="keywords" content="start study" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <!-- 公共区域css -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 初始化代码 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 字体图标 -->
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <link rel="stylesheet" href="css/checkorder.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <!-- 导航栏 -->
+        <nav>
+            <div><a href="index.html"><img src="imges/logo.jpg" alt=""></a></div>
+            <div>
+                <ul class="nav_txt">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="brand.html">品牌</a></li>
+                    <li><a href="service.html">服务</a></li>
+                    <li><a href="App.html">线上APP</a></li>
+                    <li><a href="sign.html"><span class="iconfont">&#xe61c;</span></a><a href="shopingcar.html"><span
+        class="iconfont this">&#xe618;</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="checkorder">
+        <div class="title">
+            <p>核对订单</p>
+            <ul style="display: flex;">
+                <li><a href="shopingcar.html">购物车</a></li>
+                <li>&nbsp; > &nbsp;</li>
+                <li><a href="checkorder.html" class="this">核对订单</a></li>
+                <li>&nbsp; > &nbsp;</li>
+                <li><a href="payment.html">支付</a></li>
+                <li>&nbsp; > &nbsp;</li>
+                <li><a href="successful.html">支付成功</a></li>
+            </ul>
+        </div>
+        <div class="address">
+            <div class="oldaddress">
+                <p><span>YOYO</span><span>132*****125</span></p>
+                <p><span>山东省</span><span>泰安市</span><span>岱岳区</span></p>
+                <p><a href="JavaScript:;"><em class="iconfont">&#xe6f5;</em>修改信息</a></p>
+            </div>
+            <div class="newaddress">
+                <p><a href="JavaScript:;">添加新地址<span class="iconfont">&#xe6df;</span></a></p>
+            </div>
+        </div>
+        <div class="confirm">
+            <div><p>确认商品</p></div>
+            <div>
+                <table class="conm">
+                   <thead>
+                        <tr>
+                            <th>商品名称</th>
+                            <th>价格</th>
+                            <th>数量</th>
+                            <th>优惠</th>
+                            <th>小计</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="Trade_name">
+                                <img src="update/sahng.png" alt="">
+                                <div>
+                                    <p>kiko2021典藏版</p>
+                                    <p>太空旅人-sully</p>
+                                </div>
+                            </td>
+                            <td>124.00</td>
+                            <td>
+                                <a href="JavaScript:;" class="reduce">-</a>
+                                <input type="text" value="1">
+                                <a href="JavaScript:;" class="add">+</a>
+                            </td>
+                            <td>0</td>
+                            <td class="Subtotal">124.00</td>
+                            <td><a href="JavaScript:;" class="dele">取消商品</a></td>
+                        </tr>
+                    </tbody>    
+                </table>
+                <p class="nod"><a href="shopingcar.html">还没有商品哟，快去看看吧</a></p>
+            </div>
+        </div>
+        <div class="information">
+            <div>
+                <p>已选商品(<span class="num">1</span>)件:<span class="red">￥124.00</span></p>
+                <p>运费：<span>￥0.00</span></p>
+                <p>优惠：<span>￥0.00</span></p>
+            </div>
+            <div>
+                <p>应付金额：<span class="red">￥124.00</span></p>
+                <p>收件人：<span>YOYO</span><span>132*****245</span></p>
+                <a href="payment.html"><button class="btn moverbig">提交订单</button></a>
+            </div>
+        </div>
+    </div>
+    <script src="js/checkorder.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</body>
+</html>

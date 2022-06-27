@@ -1,0 +1,186 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    width: 100%;
+}
+
+article {
+    width: 1519px;
+    margin: 0 auto;
+}
+
+.serbanner {
+    background-color: #8607f1;
+    position: relative;
+    border-top: 1px solid black;
+    height: 640px;
+    width: 100%;
+    background: url(../imges/fuwu.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.serbanner p {
+    font-size: 70px;
+    color: #fff;
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+.seachico {
+    position: absolute;
+    left: 22%;
+    top: 36%;
+    background: linear-gradient(to right, #8607f1, #2f42fd);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 24px;
+}
+.serbanner input::-webkit-search-cancel-button {
+        display: none;
+        /* 清除search自带的❌ */
+        -webkit-appearance: none;
+    }
+.serbanner input {
+    display: block;
+    font-size: 18px;
+    width: 880px;
+    height: 65px;
+    border-radius: 5px;
+    padding: 0 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.autonomy {
+    padding: 70px 350px;
+    width: 819px;
+    height: 513px;
+}
+
+.autonomy p:nth-child(1) {
+    font-size: 40px;
+    text-align: center;
+}
+
+.etxt {
+    width: 520px;
+    height: 70px;
+    line-height: 30px;
+    margin: 20px auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.threebox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.threebox div {
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    background-color: #000;
+    border-radius: 20px;
+
+}
+
+.threebox div a p {
+    /* margin-top: 50px; */
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.threebox div a p:nth-child(1) {
+    margin-top: 60px;
+}
+
+.common {
+    padding: 0 350px;
+    width: 819px;
+    height: 513px;
+}
+
+.common p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.common div {
+    width: 819px;
+    height: 220px;
+    background-color: #000;
+    border-radius: 20px;
+    margin-top: 20px
+}
+
+.common div ul {
+    margin: 0 65px;
+    padding: 20px 0;
+}
+
+.common div ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+    font-size: 24px;
+    color: #fff;
+    height: 70px;
+    width: 695px;
+    line-height: 70px;
+}
+
+.common div ul li button {
+    width: 85px;
+    height: 35px;
+    font-size: 18px;
+    margin-left: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.contact {
+    padding: 0 350px;
+    width: 819px;
+    height: 513px;
+}
+
+.contact p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact div {
+    padding: 55px 50px;
+    width: 700px;
+    height: 250px;
+    background-color: #000;
+    border-radius: 20px;
+    margin-top: 20px
+}
+
+.contact div ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact div ul li {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    line-height: 120px;
+    height: 120px;
+    color: #fff;
+}
+
+.contact div ul li span {
+    font-size: 50px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <meta name="keywords" content="start study" />
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <!-- 公共区域css -->
+    <!-- <link rel="stylesheet" href="css/common.css"> -->
+    <!-- 初始化代码 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 登录样式代码 -->
+    <link rel="stylesheet" href="css/sign.css">
+    <!-- 引入公共样式的代码 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 字体图标 -->
+    <link rel="stylesheet" href="icon/iconfont.css">
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="ren"><img src="imges/si.png" alt=""></div>
+        <div class="sign_zhu">
+            <div class="logo"><a href="index.html"><img src="imges/logo.png" alt=""></a></div>
+           
+            <div id="dl">
+                <div class="tab" style="display: flex; justify-content: space-around;  font-size: 22px; margin-top: 45px;">
+                    <p class="curr">短信验证码登录</p>
+                    |
+                    <p>账号登录</p>
+                </div>
+                
+                <ul class="tab_item">
+                    <li  class="item">
+                        <!-- 短信验证码登录 -->
+                        <div class="inputs">
+                        <span>+ 8 6</span><input type="text" placeholder="请输入手机号码" class="phone">
+                        <p class="errp">请输入有效的手机号</p>
+                        <input type="text" placeholder="请输入短信验证码" class="dx"><span class="verification" id="dlyzm"><a href="JavaScript:;"
+                                class="vf">获取验证码</a></span>
+                        <a href="user.html"><input type="button" class="dlbtn" value="登录"></a>
+                    </div>
+                    </li>
+                    <li class="item"   style="display:none;">
+                        <!-- 账号登录 -->
+                        <div class="inputs_num">
+                            <input type="text" placeholder="请输入账号（手机号）" class="phonenum">
+                            <p class="errp">请输入有效的手机号</p>
+                            <input type="password" placeholder="请输入密码" class="num_pass">
+                            <p class="pass_err">密码格式不正确</p>
+                            <a href="user.html"><input type="button" class="dlbtn" value="登录"></a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div style="margin-top: 10px;  display: flex;justify-content: space-between; font-weight: 700;">
+                    <a href="JavaScript:;"><input type="checkbox" name="" id="chex" checked>服务协议</a>
+                    <a href="JavaScript:;" class="register">立即注册</a>
+                </div>
+                
+            </div>
+            <!-- 二维码登录 -->
+            <div class="erQDl">
+                <!-- 导航栏 -->
+                <div class="er_tab">
+                    <span>扫码登录</span>
+                    <span class="gouser">账户登录</span>
+                </div>
+                <!-- 二维码登录 -->
+                <div class="er_er">
+                    <img src="./imges/743.jpg" alt="">
+                </div>
+                <div class="er_txt">
+                    <p>打开手机，扫描二维码</p>
+                </div>
+                <div class="er_zc">
+                    <p>立即注册</p>
+                </div>
+            </div>
+            <!-- 注册 -->
+            <div style="display: none;" id="zc">
+                   <p style="font-size: 20px;text-align: center; margin-top: 20px;">账号注册</p> 
+                <div class="inputs">
+                    <span>+ 8 6</span><input type="text" placeholder="请输入手机号码" class="phone">
+                    <p class="errp">请输入有效的手机号</p>
+                    <input type="text" placeholder="请输入短信验证码" class="dx"><span class="verification"><a href="JavaScript:;" class="vf">获取验证码</a></span>
+                    <input type="password" name="" id="password"placeholder="请输入密码">
+                    <p style="font-size: 16px; color: #9b9fa7; margin-top: 10px;">密码必须为6-16位的字母（包含大小写）、数字的组合</p>
+                    <p class="pass_err" >密码格式不正确</p>
+                    <a href=""><input type="button" class="dlbtn" value="完成"></a>
+                </div>
+              
+            </div>
+            <div class="auother">
+                <p>其他登录</p>
+                <div>
+                    <a href=JavaScript:; class="moverbig">
+                        <p class="iconfont ">&#xe602;</p>
+                    </a>
+                    <a href=JavaScript:; class="moverbig">
+                        <p class="iconfont ">&#xe64f;</p>
+                    </a>
+                </div>
+            </div>  
+
+        </div>
+    </div>
+        <!-- 引入登录界面的js文件 -->
+        <script src="js/sign.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>

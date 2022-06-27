@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <!-- 网站说明 -->
+    <meta name="description" content="kiko" />
+    <!-- 关键字 -->
+    <meta name="keywords" content="start study" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <!-- 公共区域css -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 初始化代码 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 字体图标 -->
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <!-- 引入购物车的样式文件 -->
+    <link rel="stylesheet" href="css/shopingcar.css">
+   
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <!-- 导航栏 -->
+        <nav>
+            <div><a href="index.html"><img src="imges/logo.jpg" alt=""></a></div>
+            <div>
+                <ul class="nav_txt">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="brand.html">品牌</a></li>
+                    <li><a href="service.html">服务</a></li>
+                    <li><a href="App.html">线上APP</a></li>
+                    <li><a href="sign.html"><span class="iconfont">&#xe61c;</span></a><a href="shopingcar.html"><span
+                                class="iconfont this">&#xe618;</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="car">
+        <div class="car_top">
+            <p>购物车</p>
+            <p>继续选购 <span class="iconfont">&#xe8d5;</span></p>
+        </div>
+        <div class="car_bottom">
+            <div class="bottom_left">
+                <table>
+                    <thead>
+                        <tr>
+                        <th><input type="checkbox" name="" id="chex">全选</th>
+                        <th>商品</th>
+                        <th>价格</th>
+                        <th>数量</th>
+                        <th>优惠</th>
+                        <th>小计</th>
+                        <th>操作</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" name="chal"></td>
+                            <td class="Trade_name">
+                                <img src="update/sahng.png" alt="">
+                                <div>
+                                    <p>kiko2021典藏版</p>  
+                                    <p>太空旅人-sully</p>
+                                </div>
+                            </td>
+                            <td>124.00</td>
+                            <td>
+                                <a href="JavaScript:;" class="reduce">-</a>
+                                <input type="text" value="1">
+                                <a href="JavaScript:;" class="add">+</a>
+                            </td>
+                            <td>0</td>
+                            <td class="Subtotal">124.00</td>
+                            <td><a href="JavaScript:;" class="dele">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name=""></td>
+                            <td class="Trade_name">
+                                <img src="update/sahng.png" alt="">
+                                <div>
+                                    <p>kiko2021典藏版</p>
+                                    <p>太空旅人-sully</p>
+                                </div>
+                            </td>
+                            <td>124.00</td>
+                            <td>
+                                <a href="JavaScript:;" class="reduce">-</a>
+                                <input type="text" value="1">
+                                <a href="JavaScript:;" class="add">+</a>
+                            </td>
+                            <td>0</td>
+                            <td class="Subtotal">124.00</td>
+                            <td><a href="JavaScript:;" class="dele">删除</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div style="display: flex; justify-content: space-between;">
+                  <div style="margin-top: 10px;">
+                    <p>已选商品(<span class="num">2</span>)件</p>
+                    <p style="color: #7c7c7c; font-size: 14px; margin-top: 5px;">(优惠0)</p>
+                </div>
+                <div style="margin: 10px  10px 0 0 ;">
+                    <p style="font-size: 20px;">合计：<span style="color: #ff0000; font-size: 22px;" class="Total_price">￥124.00</span></p>
+                    <button class="payment"><a href="checkorder.html">支付</a></button>
+                </div>  
+                </div>
+                
+            </div>
+            <div class="bottom_right">
+                <div>猜你喜欢</div>
+                
+                <div>
+                    <img src="update/sahng_01.png" alt="">
+                    <p>2021典藏版</p>
+                    <p style=" font-weight: 700;">太空旅人-sully <span style="color: #ff0000;">￥214</span></p>
+                </div>
+                <div>
+                    <img src="update/shanmg02.png" alt="">
+                    <p>2021典藏版</p>
+                    <p style=" font-weight: 700;">太空旅人-sully <span style="color: #ff0000;">￥214</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 引入购物车的js文件 -->
+    <script src="js/shopingcar.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>品牌产品</title>
+    <!-- 网站说明 -->
+    <meta name="description" content="kiko" />
+    <!-- 关键字 -->
+    <meta name="keywords" content="start study" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <!-- 公共区域css -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 初始化代码 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 字体图标 -->
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <link rel="stylesheet" href="css/brand.css">
+    <!-- swiper插件 -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <!-- 导航栏 -->
+        <nav>
+            <div><a href="index.html"><img src="imges/logo.jpg" alt=""></a></div>
+            <div>
+                <ul class="nav_txt">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="brand.html" class="this">品牌</a></li>
+                    <li><a href="service.html">服务</a></li>
+                    <li><a href="App.html">线上APP</a></li>
+                    <li><a href="sign.html"><span class="iconfont">&#xe61c;</span></a><a href="shopingcar.html"><span
+                                class="iconfont">&#xe618;</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 内容 -->
+    <article>
+        <!-- 背景 -->
+        <div class="bgc">
+            <p>你好，世界</p>
+            <button><a href="">了解详情</a></button>
+        </div>
+
+        <div class="advocate">
+            <div class="advocate_left">
+                <p>品牌主推</p>
+                <p>P I N P A I Z H U T U I</p>
+                <p>波比公仔</p>
+                <p>Please send this message to those people who mean something to yo u,to those who have touched your
+                    life in one way or
+                    another,to those who make you smile</p>
+                <div class="alb"><a href="details.html"><button>了解详情</button></a>
+                    <a href="details.html"><button>立即购买</button></a>
+
+                </div>
+            </div>
+            <div class="advocate_right">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">  <img src="update/ad01.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="update/ad04.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="update/ad06.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="update/ad05.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="update/ad02.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="all">
+            <div>
+                <p>全部产品</p>
+                <p>Q U A N B U C H A N P I N </p>
+            </div>
+            <div class="all_fem">
+                <div><a href=""><img src="update/gz01.png" alt=""></a></div>
+                <div><a href=""><img src="update/gz02.png" alt=""></a></div>
+                <div><a href=""><img src="update/gz03.png" alt=""></a></div>
+                <div><a href=""><img src="update/gz04.png" alt=""></a></div>
+                <div><a href=""><img src="update/gz05.png" alt=""></a></div>
+                <div><a href=""><img src="update/gz06.png" alt=""></a></div>
+            </div>
+            <p><a href="#"><span class="iconfont">&#xe6df;</span>查看全部</a></p>
+        </div>
+    </article>
+
+
+    <!-- 尾部区域 -->
+    <footer>
+            <div class="tail">
+                <div class="mod_help">
+                    <dl>
+                        <dt>服务支持</dt>
+                        <dd><a href="JavaScript:;">真伪查询</a></dd>
+                        <dd><a href="JavaScript:;">预约查询</a></dd>
+                        <dd><a href="JavaScript:;">政策服务</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>关于我们</th>
+                        <dd><a href="JavaScript:;">KIKIO简介</a></dd>
+                        <dd><a href="JavaScript:;">工作机会</a></dd>
+                        <dd><a href="JavaScript:;">新闻资讯</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>线下门店</dt>
+                        <dd><a href="JavaScript:;">历城区kiko旗舰店</a></dd>
+                        <dd><a href="JavaScript:;">槐荫区kiko实体店</a></dd>
+                        <dd><a href="JavaScript:;">历下区kiko体验店</a></dd>
+                    </dl>
+                </div>
+                <div>
+                    <a href="JavaScript:;"><img src="imges/logo.jpg" alt="" class="b_logo"></a>
+                </div>
+            </div>
+
+    </footer>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            direction: "vertical",
+            loop: true,
+             autoplay: {
+                delay: 2000,
+                stopOnLastSlide: false,
+                disableOnInteraction: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+               
+            },
+        });
+    </script>
+</body>
+
+</html>
